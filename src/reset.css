@@ -116,6 +116,15 @@ blockquote,
 q {
   quotes: none;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
 blockquote:before,
 blockquote:after,
 q:before,
